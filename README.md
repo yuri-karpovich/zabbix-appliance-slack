@@ -4,6 +4,6 @@ Zabbix server with ability to send messages to Slack out if the box. Integration
 The image is based on https://hub.docker.com/r/zabbix/zabbix-appliance/ with `ubuntu-3.4-latest` tag. 
 
 ## Usage
-The image usage is the same as for https://hub.docker.com/r/zabbix/zabbix-appliance/ - just use `spoonest/zabbix-appliance-slack:ubuntu-3.4-latest` instead of `zabbix/zabbix-appliance:tag`
+The image usage is the same as for https://hub.docker.com/r/zabbix/zabbix-appliance/ - just use `spoonest/zabbix-appliance-with-slack` instead of `zabbix/zabbix-appliance:tag`
 
-    docker run --name some-zabbix-appliance -p 80:80 -p 10051:10051 -d spoonest/zabbix-appliance-slack:ubuntu-3.4-latest
+    docker run --name some-zabbix-appliance -p 80:80 -p 10051:10051 -d spoonest/zabbix-appliance-with-slack
