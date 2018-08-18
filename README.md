@@ -1,0 +1,1 @@
+# zabbix-appliance-with-curl
